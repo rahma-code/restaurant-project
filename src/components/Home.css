@@ -1,0 +1,362 @@
+/* numbers section */
+
+.members {
+  background-color: rgb(168, 45, 73);
+  padding: 25px 0px;
+  text-align: center;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+.row {
+  margin: 10px 0px;
+}
+.members h3 {
+  color: white;
+  font-weight: bold;
+  margin: 10px 0px;
+  font-size: 40px;
+}
+.members h6 {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/*end numbers section */
+
+/* pride, hand-make,stomach,frequently ,Subscribesection */
+.pride,
+.hand-make,
+.Frequently,
+.Subscribe {
+  background-color: transparent;
+  padding: 25px 0px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 60px;
+  max-width: 100%;
+}
+.pride img,
+.hand-make img {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.pride h2,
+.hand-make h2,
+.stomach h2,
+.Subscribe h2 {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(67, 18, 29);
+  margin: 0;
+  width:80%;
+  letter-spacing: 0.1px;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.pride p,
+.hand-make p,
+.stomach p 
+.Subscribe p{
+  line-height: 28px;
+  color: #333;
+}
+.pride button,
+.hand-make button {
+  box-sizing: border-box;
+  width: 130px;
+  height: 40px;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+}
+/* end pride section */
+
+/* hand-make section */
+
+.hand-make ul li {
+  list-style-type: square;
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+  margin-top: 10px;
+}
+.hand-make ul {
+  padding: 0px;
+}
+/* end hand-make section */
+
+/*  stomach section */
+.stomach {
+  background: url("../asssets/4.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0px;
+  border-radius:10px;
+}
+.stomach h2 {
+  color: rgb(168, 45, 73) !important;
+}
+.stomach p{
+  width: 80%;
+}
+.stomach .row {
+  margin: 20px 0px;
+}
+.stomach a {
+  color: rgb(67, 18, 29);
+  margin: 20px 0px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+}
+.stomach a:hover {
+  color: rgb(168, 45, 73);
+}
+/*   end stomach section */
+
+/*  order section */
+.order {
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 25px 0px;
+  width: 100%;
+  height: auto;
+}
+.order .row:first-child {
+  text-align: center;
+  margin: 25px 0px;
+}
+.order h2 {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(67, 18, 29);
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.order p {
+  line-height: 28px;
+  color: #333;
+}
+.box img {
+  width: 100%;
+}
+.order .box {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #f6f6f6;
+  box-sizing: border-box;
+}
+.order .box h5 {
+  color: rgb(67, 18, 29);
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.order .box span {
+  display: block;
+  color: #444;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+.order .box h6 {
+  color: rgb(168, 45, 73);
+  font-size: 28px;
+  font-family: "Quicksand", sans-serif;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+.order button {
+  width: 150px;
+  height: 50px;
+  margin: 20px 10px 20px 0px;
+  background-color: rgb(168, 45, 73);
+  border: 3px solid rgb(168, 45, 73);
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.order button:hover {
+  background-color: #fff;
+  color: rgb(168, 45, 73);
+  transition: 0.3s ease;
+}
+/*  end order section */
+
+/* slider secction */
+.slider {
+  background-color: rgb(168, 45, 73);
+  border: ipx solid rgb(168, 45, 73);
+  width: 100%;
+  max-width: 1005;
+  height: auto;
+  text-align: center;
+  padding: 50px 0px;
+  margin: 50px 0px;
+}
+.carousel-item{
+  background-color: #fff;
+  margin: 80px 0px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 25px 0px;
+}
+.slider img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 150px;
+  margin-top: 15px;
+}
+.carousel-caption p {
+  color: #212121;
+  font-size: 17px;
+  line-height: 30px;
+
+}
+.carousel-caption  span {
+  color: rgb(168, 45, 73);
+  display: block;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+.slider h2{
+  color: #fff;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+/*  end slider secction */
+/* Frequently section */
+.Frequently h5{
+color: rgb(67, 18, 29) ;
+margin: 10px 0px;
+}
+.Frequently h2 {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(67, 18, 29);
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.Frequently p {
+  color: #333;
+}
+/* Frequently section */
+
+/* backed section */
+.baked{
+  background: url("./../asssets/download.jfif") center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+width: 100%;
+height: auto;
+padding: 40px;
+}
+.baked h2{
+  position: relative;
+  color: white;
+  padding: 20px;
+  z-index: 2;
+
+}
+.baked button {
+  width: 150px;
+  height: 50px;
+  margin: 20px 10px 20px 0px;
+  background-color: rgb(168, 45, 73);
+  border: 3px solid rgb(168, 45, 73);
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+ 
+
+}
+
+.baked button:hover {
+  background-color: #fff;
+  color: rgb(168, 45, 73);
+  transition: 0.3s ease;
+}
+/* end backed section */
+
+/*  subscribe section */
+.Subscribe{
+  text-align: center;
+}
+#address {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0px;
+  border: 3px solid rgb(226, 218, 219);
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: bold;
+ padding: 0px 20px;
+
+ 
+
+}
+.Subscribe button {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0px;
+  background-color: rgb(168, 45, 73);
+  border: 3px solid rgb(168, 45, 73);
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+ 
+
+}
+
+.Subscribe button:hover {
+  background-color: #fff;
+  color: rgb(168, 45, 73);
+  transition: 0.3s ease;
+}
+.my-form{
+  width: 50%;
+  margin: 0px auto;
+
+}
+/* end subscribe section */
+
+/*  footer section */
+.footer {
+  background-color: rgb(168, 45, 73);
+  border: ipx solid rgb(168, 45, 73);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 30px 0px;
+  margin-top: 50px ;
+}
+.footer p{
+  color: white;
+  font-size: 14px;
+  margin-top: 25px;
+}
+/* end footer section */
