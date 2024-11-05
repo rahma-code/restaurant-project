@@ -46,8 +46,7 @@
 }
 .pride h2,
 .hand-make h2,
-.stomach h2,
-.Subscribe h2 {
+.stomach h2 {
   font-family: "Quicksand", sans-serif;
   color: rgb(67, 18, 29);
   margin: 0;
@@ -263,7 +262,7 @@ margin: 10px 0px;
 
 /* backed section */
 .baked{
-  background: url("./../asssets/download.jfif") center no-repeat;
+  background: url("./../asssets/brooke-lark-jUPOXXRNdcA-unsplash\ \(1\).jpg") center no-repeat;
   background-attachment: fixed;
   background-size: cover;
 width: 100%;
@@ -302,6 +301,17 @@ padding: 40px;
 /*  subscribe section */
 .Subscribe{
   text-align: center;
+}
+
+.Subscribe h2 {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(67, 18, 29);
+  margin: 0;
+  letter-spacing: 0.1px;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 20px 0px;
 }
 #address {
   width: 100%;
